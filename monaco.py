@@ -13,7 +13,7 @@ st.title('Winter series Monaco Day 1 ')
 st.write("race 1")
 
 import gpxpy
-gpx = gpxpy.parse(open('/Users/hugostubler/Downloads/activity_6224982513.gpx'))
+gpx = gpxpy.parse(open('activity_6224982513.gpx'))
 
 print("{} track(s)".format(len(gpx.tracks)))
 track = gpx.tracks[0]
