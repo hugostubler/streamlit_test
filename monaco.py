@@ -4,8 +4,8 @@ import streamlit as st
 # working with sample data.
 import numpy as np
 import datetime
-from sklearn import metrics
-from sklearn.metrics import mean_absolute_error
+#from sklearn import metrics
+#from sklearn.metrics import mean_absolute_error
 import matplotlib.pyplot as plt
 import pydeck
 st.title('Winter series Monaco Day 1 ')
